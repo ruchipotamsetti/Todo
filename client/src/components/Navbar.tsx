@@ -5,7 +5,7 @@ import { ColorModeButton } from "./ui/color-mode";
 export default function Navbar(){
     return(
         <Container maxW={"900px"}>
-            <Box bg={{base:"gray.400", _dark:"gray.700"}} px={4} my={4} borderRadius={5}>
+            <Box bg={{base:"gray.300", _dark:"gray.700"}} px={4} my={4} borderRadius={5}>
                 <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
                     <Flex gap={3} alignItems={"center"} justifyContent={"center"} display={{ base: "none", sm: "flex" }}>
                         <img src="/react.png" alt="logo" width={50} height={50}/>
